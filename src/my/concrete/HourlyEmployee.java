@@ -6,6 +6,7 @@ package my.concrete;
  */
 public class HourlyEmployee extends Employee {
     
+
     public double hoursWorked;
     private double hourlyPay;
     

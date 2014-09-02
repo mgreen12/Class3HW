@@ -9,10 +9,12 @@ public class Employee {
     String empID;
     int age;
     
+
     public Employee() {
         
     }
     
+
     public Employee(String name, String empID, int yearsEmployed){
         this.name = name;
         this.empID = empID;

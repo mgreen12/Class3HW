@@ -22,6 +22,10 @@ public class HourlyEmployee extends Employee {
         return hoursWorked;
     }
     
+    public double getHourlyPay() {
+        return hourlyPay;
+    }
+    
     public double getPay () {
         if(hoursWorked > 40) {
             return (40 * hourlyPay) + ((hoursWorked - 40) * (hourlyPay * 1.5));

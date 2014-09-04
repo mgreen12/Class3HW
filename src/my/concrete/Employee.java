@@ -7,9 +7,14 @@ package my.concrete;
 public class Employee {
     String name;
     String empID;
-    int age;
+    int age; 
     
-    public Employee(String name, String empID, int age){
+    public Employee() {
+        
+    }
+
+    public Employee(String name, String empID, int yearsEmployed){
+
         this.name = name;
         this.empID = empID;
         this.age = age;

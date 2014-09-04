@@ -6,8 +6,13 @@ package my.concrete;
  */
 public class HourlyEmployee extends Employee {
     
-    private double hoursWorked;
+
+    public double hoursWorked;
     private double hourlyPay;
+    
+    public HourlyEmployee () {
+        
+    }
     
     public HourlyEmployee (String name, String empID, int age) {
         super(name, empID, age);
@@ -15,6 +20,14 @@ public class HourlyEmployee extends Employee {
     
     public void setHoursAndPay (double hoursWorked, double hourlyPay) {
         this.hoursWorked = hoursWorked;
+        this.hourlyPay = hourlyPay;
+    }
+    
+    public void setHoursWorked (double hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
+    
+    public void setHourlyPay (double hourlyPay) {
         this.hourlyPay = hourlyPay;
     }
     
